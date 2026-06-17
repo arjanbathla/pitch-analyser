@@ -32,7 +32,7 @@ export default function Home() {
         setResult(data.data);
         setRefreshKey((k) => k + 1); // reload the history list
       }
-    } catch (e) {
+    } catch {
       setError("could not reach the server");
     }
 
