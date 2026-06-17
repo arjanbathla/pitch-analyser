@@ -2,7 +2,7 @@
 
 Paste unstructured text about a company and get back a structured, validated analysis: sector, stage, a summary, strengths, risks, an investability score (0–100), and the reasoning behind it.
 
-**Live demo:** _(add after deploying to Vercel)_
+**Live demo:** https://pitch-analyser.vercel.app
 
 ## How it works
 

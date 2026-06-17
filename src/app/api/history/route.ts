@@ -1,6 +1,10 @@
 import { NextResponse } from "next/server";
 import { getSupabase } from "@/lib/supabase";
 
+// run on every request instead of being cached at build time, so newly
+// saved analyses show up in the history list
+export const dynamic = "force-dynamic";
+
 export async function GET() {
   const supabase = getSupabase();
   if (!supabase) return NextResponse.json({ history: [] });
